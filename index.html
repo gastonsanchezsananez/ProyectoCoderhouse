@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logo lulipets 60x60.png" type="image/x-icon">
     <title>Lulipets</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="cuerpo">
     <nav class="navbar">
-        <div class="logo">
+        <div data-aos="flip-right" data-aos-duration="800" class="logo">
             <img src="./assets/img/logo lulipets 60x60.png" alt="">
         </div>
         <ul>
@@ -33,27 +34,27 @@
     </header>
     <main class="main">
         <div class="tarjetas">
-         <div class="tarjeta">
+         <div data-aos="zoom-in-up" class="tarjeta">
             <img src="./assets/img/perrro.png" alt="">
             <H5>Perros</H5>
          </div>
-         <div class="tarjeta">
+         <div data-aos="zoom-in-up" class="tarjeta">
             <img src="./assets/img/peces.png" alt="">
             <H5>Peces</H5>
          </div>
-         <div class="tarjeta">
+         <div data-aos="zoom-in-up" class="tarjeta">
             <img src="./assets/img/gatos.png" alt="">
             <H5>Gatos</H5>
          </div>
-         <div class="tarjeta">
+         <div data-aos="zoom-in-up"  class="tarjeta">
             <img src="./assets/img/aves 2.png" alt="">
             <H5>Aves</H5>
          </div>
-         <div class="tarjeta">
+         <div data-aos="zoom-in-up" class="tarjeta">
             <img src="./assets/img/otros 2.png" alt="">
             <H5>Otros</H5>
          </div>
-         <div class="tarjeta">
+         <div data-aos="zoom-in-up"  class="tarjeta">
             <img src="./assets/img/hamsters.png" alt="">
             <H5>Hamsters</H5>
          </div>
@@ -75,5 +76,9 @@
             <a target="_blank" href="www.twitter.com/"><img src="./assets/img/twitter 20x20.png"></a> 
         </div>
     </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
