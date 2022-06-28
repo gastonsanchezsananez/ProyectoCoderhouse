@@ -165,13 +165,7 @@ justify-content: space-between;
  
  @media(min-width:960px){
     .navbar ul li{
-        font-size: 24px;
-    }
-    .header h1{
-       font-size: 55px
-    }
-   .header p{
-       font-size: 20px
+        font-size: 20px;
     }
    .derechos{
        font-size: 18px
@@ -182,21 +176,13 @@ justify-content: space-between;
 
  }
  @media(min-width:1200px){
-    .navbar ul li{
-        font-size: 24px;
-    }
     .logo{
         margin-left: 30px;
     }
     .perfil{
         margin-right: 30px;
     }
-    .header h1{
-       font-size: 55px
-    }
-   .header p{
-       font-size: 20px
-    }
+
    .derechos{
        font-size: 18px
     }
@@ -212,7 +198,36 @@ justify-content: space-between;
 
  }
 
-    
+ @media(min-width:1400px){
+    .tarjeta{
+        width: 400px;
+        }
+ }
+ @media(min-width:1550px){
+    .cuerpo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 80px 500px auto 80px;
+        grid-template-areas: "navbar navbar navbar"
+                             "header header header"
+                             "main   main   main"
+                             "footer footer footer";
+    }
+ }
+ @media(min-width:1800px){
+    .tarjeta{
+        width: 500px;
+        }
+    .cuerpo{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 80px 600px auto 80px;
+            grid-template-areas: "navbar navbar navbar"
+                                 "header header header"
+                                 "main   main   main"
+                                 "footer footer footer";
+        }
+ }
 
 
 
